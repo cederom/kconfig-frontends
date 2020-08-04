@@ -1,3 +1,11 @@
+kconfig-frontends (4.11.0.1+dfsg-3) unstable; urgency=medium
+
+  * Removing GTK2 dependancy (Closes: #967553).
+  * Removing libglade2-dev dependency, generating py2 dep (Closes: #967151).
+  * Basic lintian cleaning.
+
+ -- Philippe Thierry <philou@debian.org>  Tue, 04 Aug 2020 14:27:52 +0200
+
 kconfig-frontends (4.11.0.1+dfsg-2) unstable; urgency=medium
 
   * Updated lintian override for non-dev-pkg-with-shlib-symlink

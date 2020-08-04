@@ -9,7 +9,6 @@ gen_manpages:
 	go-md2man -in debian/kconfig.1.md -out debian/kconfig.1
 	go-md2man -in debian/kconfig-conf.1.md -out debian/kconfig-conf.1
 	go-md2man -in debian/kconfig-diff.1.md -out debian/kconfig-diff.1
-	go-md2man -in debian/kconfig-gconf.1.md -out debian/kconfig-gconf.1
 	go-md2man -in debian/kconfig-qconf.1.md -out debian/kconfig-qconf.1
 	go-md2man -in debian/kconfig-gettext.1.md -out debian/kconfig-gettext.1
 	go-md2man -in debian/kconfig-mconf.1.md -out debian/kconfig-mconf.1
@@ -18,6 +17,9 @@ gen_manpages:
 	go-md2man -in debian/kconfig-tweak.1.md -out debian/kconfig-tweak.1
 	echo "exiting with error: this target should be called manually"
 	exit 1
+
+override_dh_auto_configure:
+	dh_auto_configure -- --disable-gconf
 
 override_dh_installdocs:
 	dh_installdocs
