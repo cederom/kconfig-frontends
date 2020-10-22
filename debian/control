@@ -23,8 +23,6 @@ Depends:
  ${misc:Depends},
  python3,
  libncurses-dev,
-Conflicts:
- kconfig-frontends (>= 4.11.0.1+dfsg-4)
 Replaces:
  kconfig-frontends (<< 4.11.0.1+dfsg-4)
 Breaks: kconfig-frontends (<< 4.11.0.1+dfsg-4)
