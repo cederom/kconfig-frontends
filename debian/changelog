@@ -1,7 +1,14 @@
+kconfig-frontends (4.11.0.1+dfsg-4) unstable; urgency=medium
+
+  * [bugfix] lintian W.
+  * Separated grapical/console only modes in 2 packages (Closes: #923370).
+
+ -- Philippe Thierry <philou@debian.org>  Thu, 22 Oct 2020 11:22:25 +0200
+
 kconfig-frontends (4.11.0.1+dfsg-3) unstable; urgency=medium
 
   * Removing GTK2 dependancy (Closes: #967553).
-  * Removing libglade2-dev dependency, generating py2 dep (Closes: #967151).
+  * Removing libglade2-dev dependancy, generating py2 dep (Closes: #967151).
   * Basic lintian cleaning.
 
  -- Philippe Thierry <philou@debian.org>  Tue, 04 Aug 2020 14:27:52 +0200
