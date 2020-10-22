@@ -1,7 +1,6 @@
 usr/lib
 usr/include
-usr/share/doc/kconfig-frontends
-usr/share/man
+usr/share
 usr/bin/kconfig
 usr/bin/kconfig-conf
 usr/bin/kconfig-qconf
