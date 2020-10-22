@@ -24,7 +24,9 @@ Depends:
  python3,
  libncurses-dev,
 Conflicts:
- kconfig-frontends
+ kconfig-frontends (>= 4.11.0.1+dfsg-4)
+Replaces:
+ kconfig-frontends (<< 4.11.0.1+dfsg-4)
 Breaks: kconfig-frontends (<< 4.11.0.1+dfsg-4)
 Description: NoX standalone implementation of the Linux Kconfig parser
  Kconfig-frontends provides the kconfig parser, as well as all the frontends
