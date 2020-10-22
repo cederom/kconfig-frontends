@@ -43,8 +43,6 @@ Recommends:
  qtbase5-dev,
 Provides:
  kconfig-frontends-nox
-Conflicts:
- kconfig-frontends-nox
 Replaces:
  kconfig-frontends-nox
 Description: Standalone implementation of the Linux Kconfig parser and frontend
