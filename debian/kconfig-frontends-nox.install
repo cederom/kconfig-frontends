@@ -1,6 +1,7 @@
 usr/lib
 usr/include
-usr/share
+usr/share/doc/kconfig-frontends-nox
+usr/share/man
 usr/bin/kconfig
 usr/bin/kconfig-conf
 usr/bin/kconfig-diff
