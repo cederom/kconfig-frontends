@@ -7,7 +7,7 @@ Build-Depends:
  flex,
  bison,
  gperf,
- libncurses5-dev,
+ libncurses-dev,
  qtbase5-dev,
  pkg-config
 Standards-Version: 4.5.0
@@ -22,7 +22,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  python3,
- libncurses5-dev,
+ libncurses-dev,
 Recommends:
  qtbase5-dev,
 Conflicts:
@@ -39,7 +39,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  python3,
- libncurses5-dev,
+ libncurses-dev,
 Conflicts:
  kconfig-frontends
 Description: NoX standalone implementation of the Linux Kconfig parser
