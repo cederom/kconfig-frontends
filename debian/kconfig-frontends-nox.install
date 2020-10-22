@@ -1,4 +1,6 @@
-usr/lib/*
+usr/lib
+usr/include
+usr/share
 usr/bin/kconfig
 usr/bin/kconfig-conf
 usr/bin/kconfig-diff
