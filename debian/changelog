@@ -1,6 +1,7 @@
 kconfig-frontends (4.11.0.1+dfsg-5) unstable; urgency=medium
 
   * Fix: Replace without breaks (Closes: #974057).
+  * Fix: Updated autopkgtests.
 
  -- Philippe Thierry <philou@debian.org>  Mon, 09 Nov 2020 15:35:56 +0100
 
