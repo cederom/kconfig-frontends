@@ -45,6 +45,8 @@ Provides:
  kconfig-frontends-nox
 Replaces:
  kconfig-frontends-nox
+Breaks:
+ kconfig-frontends-nox
 Description: Standalone implementation of the Linux Kconfig parser and frontend
  Kconfig-frontends provides the kconfig parser, as well as all the frontends
  (dialog, ncurses, Qt and Gtk based) to configure and generate config files
