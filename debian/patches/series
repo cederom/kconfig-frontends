@@ -1,3 +1,4 @@
+autoconf_270p.patch
 gtk3.patch
 python3_support.patch
 gperf_newtype.patch
