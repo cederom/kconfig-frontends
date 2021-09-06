@@ -18,6 +18,10 @@ gen_manpages:
 	echo "exiting with error: this target should be called manually"
 	exit 1
 
+override_dh_autoreconf:
+	mkdir -p $(CURDIR)/scripts/.autostuff
+	dh_autoreconf
+
 override_dh_auto_configure:
 	dh_auto_configure -- --disable-gconf
 
